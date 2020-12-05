@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+    footer{
+        width: 100%;
+    }
+}
+
+
+header div#Menu nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header div#Menu nav ul li:hover{
+    background-color: orange;
+    transition: 0.3s all;
+    border-top: 3px solid red;
+}
+
+header div#Menu nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header div#Menu nav ul li{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+
+.Titre{
+       display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.Titre h1{
+    border-bottom: 2px solid red;
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    font-size: 20px;
+    color: red;
+    padding-top: 25px;
+    font-family: 'Noto Serif', serif;
+}
+
+label, input{
+    display: flex;
+    flex-direction: column;
+}
+
+.Input{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+input.Nom{
+    width: 250px;
+    height: 20px;
+}
+
+input.Pseudo{
+    width: 200px;
+    height: 20px;
+}
+
+input.Email{
+    width: 350px;
+    height: 20px;
+}
+
+input.Password{
+    width: 200px;
+}
+
+input.Submit{
+    border: 2px solid red;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+    background: no-repeat;
+    color: orange;
+}
+
+body{
+    background-image: url("https://image.noelshack.com/fichiers/2020/48/5/1606475189-bg-contact.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid grey;
+    background-color: white;
+    margin-top: 390px;
+}
+
+@media (min-width: 768px) {
+    .Input {
+        width: 80%;
+    }
+}
+ 
+@media (min-width: 968px) {
+    .container {
+        padding-top: 3rem;
+        width: 50%;
+    }
+}

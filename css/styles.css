@@ -1,0 +1,153 @@
+/*Header, Menu*/
+
+@media screen and(max-width: 768px) {
+	.body{
+		display: block;
+	}
+
+	.main{
+		width: 100%;
+	}
+
+	.InfosP{
+		width: 100%;
+	}
+
+	.iframe{
+		width: 100%;
+	}
+}
+
+header{
+	background-image: url("https://image.noelshack.com/fichiers/2020/48/4/1606420125-bg-index.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 955px;
+}
+
+header div#Menu nav ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+header div#Menu nav ul li:hover{
+	background-color: orange;
+	transition: 0.3s all;
+	border-top: 3px solid red;
+}
+
+header div#Menu nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+header div#Menu nav ul li{
+	display: flex;
+	text-align: center;
+	padding: 15px;
+	background-color: white;
+}
+
+header h1{
+	margin-top: 300px;
+	text-align: center;
+	padding-bottom: 400px;
+	font-size: 100px;
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+	-webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+
+/*Body*/
+
+body{
+	margin: 0px;
+}
+
+/*En savoir Plus*/
+
+div#InfosP{
+	background-color: #fff;
+}
+
+div#InfosP div.Infos span h3{
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+}
+
+div#InfosP div.Infos span.Entrainement h3{
+	margin-left: -15px;
+}
+
+div#InfosP div.Infos span.Palmarès h3{
+	margin-left: -33px;
+}
+
+div#InfosP div.Infos{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+div#InfosP div.Bouton a{
+	border: 1px solid black;
+	padding:10px;
+	text-decoration: none;
+	color: black;
+	padding-top: 20px;
+}
+
+div#InfosP div.Bouton{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-bottom: 80px;
+}
+
+div#InfosP div.Bouton a:hover{
+	background-color: orange;
+	transition: 0.4s all;
+}
+
+/*Vidéos*/
+
+div#Actualités div.Vidéos h1{
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	color: #fff;
+	background-color: black;
+	border-radius: 5px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+div#Actualités div.Vidéos iframe{
+	margin-left: 258px;
+	padding-bottom: 30px;
+}
+
+div#Actualités div.Vidéos{
+	background-image: url("https://image.noelshack.com/fichiers/2020/44/4/1603993304-background-video-flou.jpg");
+	border-radius: 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #fff;
+}
+
+footer p{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}

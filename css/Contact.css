@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+header div#Menu nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header div#Menu nav ul li:hover{
+    background-color: orange;
+    transition: 0.3s all;
+    border-top: 3px solid red;
+}
+
+header div#Menu nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header div#Menu nav ul li{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+ 
+main {
+    min-height: 90vh;
+}
+ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.container {
+    padding: .7rem;
+    margin: 0 auto;
+}
+ 
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ 
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    color: white;
+}
+
+label{
+font-family: 'Noto Serif', serif;
+}
+ 
+textarea {
+    resize: none;
+}
+ 
+input[type="submit"] {
+    background-color: greenyellow;
+    width: fit-content;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
+#socials {
+    margin-top: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+ 
+#socials h2{
+    color: white;
+}
+
+.social-items {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+ 
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: white;
+    border-top: 1px solid #aaa;
+}
+ 
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+ 
+@media (min-width: 968px) {
+    .container {
+        padding-top: 3rem;
+        width: 50%;
+    }
+}
+
+
+body{
+    background-image: url("https://image.noelshack.com/fichiers/2020/48/2/1606252217-image00021.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

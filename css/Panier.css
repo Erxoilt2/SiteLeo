@@ -1,0 +1,132 @@
+@media (max-width: 1300px) {
+
+	.Paiement {
+		border: none;
+	}
+
+	.Paiement h2, h5{
+		display: block;
+		margin-left: -1100px;
+	}
+
+	.Paiement button{
+		display: block;
+		margin-left: -1100px;
+	}
+	.Infos h3.Price{
+		display: none;
+	}
+}
+
+header div#Menu nav ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+header div#Menu nav ul li:hover{
+	background-color: orange;
+	transition: 0.3s all;
+	border-top: 3px solid red;
+}
+
+header div#Menu nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+header div#Menu nav ul li{
+	display: flex;
+	text-align: center;
+	padding: 15px;
+	background-color: white;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.Articles{
+	margin-top: 150px;
+	margin-left: 100px;
+}
+
+.Articles h1{
+	border-bottom: 1px solid blue;
+	width: 10%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Infos{
+	border-top: 1px solid grey;
+	width: 45%;
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+}
+
+.Infos h3{
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+}
+
+.Infos h3.Name{
+	margin-left: 100px;
+}
+
+.Infos h3.Price{
+	margin-left: 560px;
+}
+
+.Product img{
+	margin-left: 75px;
+}
+
+.Product img, h3.Titre{
+	display: flex;
+	flex-direction: column;
+}
+
+.Product h3.Titre{
+	margin-left: 55px;
+}
+
+.Product h3.Prix{
+	margin-left: 800px;
+}
+
+.Product{
+	border-top: 1px solid grey;
+}
+
+.Paiement{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1300px;
+	border: 2px solid black;
+	padding-left: 55px;
+}
+
+.Paiement h2{
+	font-family: 'Oswald', sans-serif;
+}
+
+.Paiement button{
+	width: 150px;
+	height: 35px;
+	margin-top: 55px;
+	border: none;
+	cursor: pointer;
+	background-color: #E1C32B;
+	border: 1px solid #BDA52D;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid grey;
+	margin-top: 300px;
+}

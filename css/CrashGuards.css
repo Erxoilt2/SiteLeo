@@ -1,0 +1,128 @@
+@media screen and(max-width: 978px) {
+	.Infos h1{
+		margin-left: -250px;
+	}
+}
+
+/*Header Menu*/
+
+header div#Menu nav ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+header div#Menu nav ul li:hover{
+	background-color: orange;
+	transition: 0.3s all;
+	border-top: 3px solid red;
+}
+
+header div#Menu nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+header div#Menu nav ul li{
+	display: flex;
+	text-align: center;
+	padding: 15px;
+	background-color: white;
+}
+
+.Image img{
+	border: 2px solid red;
+}
+
+.Image{
+	padding-top: 200px;
+	padding-left: 75px;
+}
+
+.Infos h1 {
+	margin-left: 900px;
+	margin-top: -410px;
+	border-bottom: 2px solid orange;
+	width: 30%;
+	font-family: 'Abel', sans-serif;
+}
+
+.Couleur{
+	margin-left: 950px;
+	padding-top: 20px;
+}
+
+.Couleur h1{
+	margin-left: 140px;
+	border-bottom: 1px solid red;
+	width: 13%;
+}
+
+.Couleur button{
+	border: none;
+	background-color: black;
+	border-radius: 20px;
+	width: 120px;
+	height: 30px;
+	margin-left: 55px;
+}
+
+.Couleur a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Tailles{
+	margin-left: 900px;
+	margin-top: 120px;
+}
+
+.Tailles h1{
+	margin-left: 200px;
+	border-bottom: 1px solid red;
+	width: 10%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Tailles button{
+	margin-top: 80px;
+	margin-left: 28px;
+	border: none;
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.Tailles a{
+	text-decoration: none;
+	color: white;
+}
+
+.Panier{
+	margin-top: 150px;
+	margin-left: 1080px;
+}
+
+.Panier button{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: black;
+	width: 150px;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.Panier a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid grey;
+}

@@ -1,0 +1,94 @@
+@media (max-width: 768px) {
+	nav{
+		margin-left: 250px;
+	}
+
+	.Infos{
+		margin-top: 500px;
+		display: flex;
+		justify-content: center;
+		margin-left: -550px; 
+	}
+	.Image{
+		display: flex;
+		justify-content: center;
+		margin-left: 200px;
+	}
+
+	.Panier button{
+		display: flex;
+		justify-content: center;
+		margin-left: -700px;
+	}
+}
+
+/*Header Menu*/
+
+header div#Menu nav ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+header div#Menu nav ul li:hover{
+	background-color: orange;
+	transition: 0.3s all;
+	border-top: 3px solid red;
+}
+
+header div#Menu nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+header div#Menu nav ul li{
+	display: flex;
+	text-align: center;
+	padding: 15px;
+	background-color: white;
+}
+
+.Image img{
+	border: 2px solid red;
+}
+
+.Image{
+	padding-top: 200px;
+	padding-left: 75px;
+}
+
+.Infos h1 {
+	margin-left: 900px;
+	margin-top: -410px;
+	border-bottom: 2px solid orange;
+	width: 25%;
+	font-family: 'Abel', sans-serif;
+}
+
+.Panier{
+	margin-top: 150px;
+	margin-left: 1060px;
+}
+
+.Panier button{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: black;
+	width: 150px;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.Panier a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid grey;
+	margin-top: 350px;
+}

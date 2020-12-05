@@ -1,0 +1,160 @@
+header div#Menu nav ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+header div#Menu nav ul li:hover{
+	background-color: orange;
+	transition: 0.3s all;
+	border-top: 3px solid red;
+}
+
+header div#Menu nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+header div#Menu nav ul li{
+	display: flex;
+	text-align: center;
+	padding: 15px;
+	background-color: white;
+}
+
+body{
+	background: linear-gradient(#fff, #0896C4, #D28A04);
+	padding: 0;
+	margin: 0;
+}
+
+main{
+	margin-top: 15vh;
+	margin-left: 5vw;
+}
+
+.Perso {
+	margin-left: 40vw;
+	padding-bottom: 200px;
+}
+
+.Perso p{
+	margin-left: -42vw;
+	text-align: center;
+}
+
+.Perso img{
+	border-radius: 15px;
+	margin-left: -3vw;
+}
+
+.Perso h1{
+	text-align: center;
+	margin-left: -46vw;
+}
+
+.Nature h1{
+	text-align: center;
+	margin-left: -600px;
+}
+
+.Nature h3, p {
+	margin-left: 9vw;
+}
+
+.Nature{
+	margin-left: 520px;
+	padding-bottom: 200px;
+}
+.Nature p{
+	text-align: center;
+	margin-left: -700px;
+}
+
+.Nature img{
+	border-radius: 7px;
+	margin-left: 5vw;
+}
+
+
+.Palmares {
+	margin-left: 620px;
+	padding-bottom: 200px;
+}
+
+.Palmares h1{
+	margin-left: -1vw;
+}
+
+.Palmares p{
+	text-align: center;
+	margin-left: -818px;
+}
+
+.Palmares h3{
+	margin-left: 2vw;
+}
+
+.Palmares img{
+	border-radius: 7px;
+}
+
+.Nus{
+	margin-left: 550px;
+	padding-bottom: 200px;
+}
+
+.Nus h1{
+	margin-left: 1vw;
+}
+
+.Nus h2{
+	margin-left: 6vw;
+}
+
+.Nus h2.Quand{
+	margin-left: 7vw;
+}
+
+.Nus p{
+	text-align: center;
+	margin-left: -35vw;
+}
+
+.Nus img{
+	border-radius: 7px;
+	margin-left: 6.5vw;
+}
+
+.Objectifs {
+	margin-left: 550px;
+	padding-bottom: 100px;
+}
+
+.Objectifs h1{
+	text-align: center;
+	margin-left: -34vw;
+}
+
+.Objectifs h2{
+	margin-left: 1vw;
+}
+
+.Objectifs p{
+	text-align: center;
+	margin-left: -35vw;
+}
+
+.Objectifs img{
+	border-radius: 7px;
+	margin-left: 2.7vw;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid grey;
+	margin-left: -220px;
+}
